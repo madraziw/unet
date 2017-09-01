@@ -192,7 +192,14 @@ for index in range(0, 10):
     misc.imsave(os.path.join(result_path, diffname),difference)
     
 
-
+#############################################
+Lab3 Improve the accuracy of Lab2
+Tips:
+Try to change the training parameters: learning rate, epoch, batch size, etc.
+Try to augment the image samples using the last example of https://keras.io/preprocessing/image/#imagedatagenerator
+Try to replace the uppooling layer with deconvolution layer (ref. https://github.com/k3nt0w/FCN_via_keras )
+Try to increase receptive fields by replace convolution2D with AtrousConvolution2D (is it same as reduce running resolution?)
+Transfer learning
 
 
     
